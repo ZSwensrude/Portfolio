@@ -3,8 +3,17 @@
 
 }
 
+.navbarPad > * {
+  margin-right: 10px;
+}
+
+.nameText {
+  font-size: 1.5rem;
+  color: #FFA63A;
+}
+
 .topText {
-  font-size: 60px;
+  font-size: 1.2rem;
 }
 
 .zachbox {
