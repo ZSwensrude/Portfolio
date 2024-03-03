@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, User} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, User, Avatar} from "@nextui-org/react";
 import github from '../images/GitHub-logo.png'
 import linkedin from '../images/LinkedIn_icon.svg.png'
 import './components.css'
@@ -7,17 +7,25 @@ import './components.css'
 const ZachNav = ({ activeTab, onSelectTab }) => {
   return (
     <Navbar isBordered className="topText" >
-      <NavbarBrand >
-      <User   
+      <NavbarBrand className="navbarPad">
+        {/* <User   
           className="nameText"
           name="Zachary Swensrude"
           description="Aspiring Developer"
           avatarProps={{
+            className:"w-12 h-12 text-large",
             src: "https://media.licdn.com/dms/image/D5603AQFIiI5iXHFkUA/profile-displayphoto-shrink_200_200/0/1702000182915?e=2147483647&v=beta&t=7ab4VsaAzXnL2XBtAv0DNpD8sBh_folxsZwSGlk_a_w"
           }}
+        /> */}
+        <Avatar 
+          src="https://media.licdn.com/dms/image/D5603AQFIiI5iXHFkUA/profile-displayphoto-shrink_200_200/0/1702000182915?e=2147483647&v=beta&t=7ab4VsaAzXnL2XBtAv0DNpD8sBh_folxsZwSGlk_a_w" 
+          className="w-12 h-12 text-large"
+          isBordered color="warning" 
         />
-        
-        {/* <p className="nameText">Zachary Swensrude |</p> */}
+        <div className="name" >
+          <p className="nameText">Zachary</p>
+          <p className="nameText">Swensrude</p>
+        </div>
       </NavbarBrand>
       <NavbarContent justify="center">
         <NavbarItem>

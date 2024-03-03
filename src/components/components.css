@@ -7,13 +7,21 @@
   margin-right: 10px;
 }
 
+.name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .nameText {
   font-size: 1.5rem;
-  color: #FFA63A;
+  color: #f5a524;
+  font-weight: 500;
 }
 
 .topText {
   font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .zachbox {
