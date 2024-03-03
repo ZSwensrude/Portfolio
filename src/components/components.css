@@ -30,5 +30,24 @@
 
 .carousel {
   padding: 10px;
-  max-width: 1000px;
+  width: 1000px;
+}
+
+.headerText {
+  font-size: 2rem;
+}
+
+.carouselText {
+  font-size: 1.2rem;
+  color: #cecece;
+}
+
+.descriptionText {
+  font-size: 1.3rem;
+}
+
+.imageButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
