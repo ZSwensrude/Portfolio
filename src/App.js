@@ -18,14 +18,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ZachNav activeTab={activeTab} onSelectTab={onSelectTab}/>
-        {
+        <div className='content'>
           {
-            'home': <Home />,
-            'projects': <Projects />,
-            'about': <About />,
-            'resume': <Resume />
-          }[activeTab]
-        }
+            {
+              'home': <Home />,
+              'projects': <Projects />,
+              'about': <About />,
+              'resume': <Resume />
+            }[activeTab]
+          }
+        </div>
       </header>
     </div>
   );
