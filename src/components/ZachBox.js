@@ -1,6 +1,6 @@
 import React from "react";
 
-const ZachBox = () => {
+const ZachBox = ({ }) => {
   return (
     <div className="zachbox">
       <p>TEST</p>

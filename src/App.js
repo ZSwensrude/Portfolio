@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <ZachNav activeTab={activeTab} onSelectTab={onSelectTab}/>
         <div className='content'>
           {
@@ -28,7 +28,8 @@ function App() {
             }[activeTab]
           }
         </div>
-      </header>
+      </div>
+      <p>Please note that this portfolio is currently under development</p>
     </div>
   );
 }

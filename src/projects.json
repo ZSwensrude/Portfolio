@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Lich's Lair",
+    "img": "/images/Projects/LichsLair.png",
+    "tags": "Unity 2D, C#, Research, Pixel Art, Testing, Playable",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Aug-Dec 2023"
+  },
+  {
+    "title": "Mac-UN",
+    "img": "/images/Projects/Mac-UN.png",
+    "tags": "React, JavaScript, MongoDB, Node.js, CSS, HTML, Deployed",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Current"
+  },
+  {
+    "title": "Space Evaders",
+    "img": "/images/Projects/SpaceEvaders.png",
+    "tags": "Unity 3D, C#, Asset Usage, Particle System",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Current"
+  },
+  {
+    "title": "React Class Registration WebApp",
+    "img": "/images/Projects/WebRegister.png",
+    "tags": "React Boostrap, Express, MongoDB, Mongoose, Node, React, JavaScript",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Feb 2024"
+  },
+  {
+    "title": "DuckyBot",
+    "img": "/images/Projects/DuckyBot.png",
+    "tags": "Arduino, Robotics, 3D Printing, 3D Design",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Oct-Dec 2022"
+  },
+  {
+    "title": "Cube Crusher",
+    "img": "/images/Projects/CubeCrusher.png",
+    "tags": "WebGL, Shaders, JavaScript, Raymarching",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Mar-Apr 2023"
+  },
+  {
+    "title": "Class Registration System",
+    "img": "/images/Projects/ClassRegistration.png",
+    "tags": "C#, .NET, SQL, Database",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Jan-Feb 2023"
+  },
+  {
+    "title": "Client-Server Email Server",
+    "img": "/images/Projects/EmailServer.png",
+    "tags": "Python, Network, Communication, UNIX",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Nov-Dec 2022"
+  },
+  {
+    "title": "Restaurant Schedule Android App",
+    "img": "/images/Projects/RestaurantApp.png",
+    "tags": "Java, Android Studio, SQLite",
+    "description": "",
+    "github": "",
+    "link": "",
+    "year": "Jan-Apr 2022"
+  }
+]
+  
