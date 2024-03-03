@@ -1,11 +1,7 @@
 import React from "react";
 import { Carousel } from "@material-tailwind/react";
-import { Button, Link } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import './components.css';
-import Lich from '../images/Projects/LichsLair.png';
-import Mac from '../images/Projects/Mac-UN.png';
-import Ducky from '../images/Projects/DuckyBot.jpg';
-import Space from '../images/Projects/SpaceEvaders.png'
 
 const Home = () => {
   return (
@@ -24,38 +20,38 @@ const Home = () => {
           <>
             <p className="carouselText">Lich's Lair: A 2D Roguelike made in Unity</p>
             <img
-              src={Lich}
+              src={"/images/Projects/LichsLair.png"}
               alt="Lich's Lair tutorial room"
               className="h-full w-full object-cover"
             />
-            {/* <Button className="imageButton" color="secondary">More Info</Button> */}
+            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
           <>
             <p className="carouselText">Mac-UN: A Model UN Conference Webapp</p>
             <img
-              src={Mac}
+              src={"/images/Projects/Mac-UN.png"}
               alt="Mac-UN web app front page"
               className="h-full w-full object-cover"
             />
-            {/* <Button className="imageButton" color="secondary">More Info</Button> */}
+            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
           <>
             <p className="carouselText">DuckyBot: A 3D printed human-following robot</p>
             <img
-              src={Ducky}
+              src={"/images/Projects/DuckyBot.jpg"}
               alt="Ducky bot, a 3d printed robot in the shape of a duck"
               className="h-full w-full object-cover"
             />
-            {/* <Button className="imageButton" color="secondary">More Info</Button> */}
+            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
           <>
             <p className="carouselText" color="secondary">Space Evaders: A 3D endless runner game created in Unity</p>
             <img
-              src={Space}
+              src={"/images/Projects/SpaceEvaders.png"}
               alt="in game screenshot from space evaders"
               className="h-full w-full object-cover"
             />
-            {/* <Button className="imageButton" color="secondary">More Info</Button> */}
+            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
         </Carousel>
         <br />

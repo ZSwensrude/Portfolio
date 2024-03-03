@@ -1,7 +1,5 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, Avatar} from "@nextui-org/react";
-import github from '../images/GitHub-logo.png'
-import linkedin from '../images/LinkedIn_icon.svg.png'
 import './components.css'
 
 const ZachNav = ({ activeTab, onSelectTab }) => {
@@ -64,7 +62,7 @@ const ZachNav = ({ activeTab, onSelectTab }) => {
             color="secondary" 
             onClick={()=> window.open("https://github.com/ZSwensrude", "_blank")}
           >
-            <img id="icon" src={github} alt="github logo"/>
+            <img id="icon" src={"/images/GitHub-logo.png"} alt="github logo"/>
           </Button>
         </NavbarItem>
         <NavbarItem > 
@@ -72,7 +70,7 @@ const ZachNav = ({ activeTab, onSelectTab }) => {
             isIconOnly 
             onClick={()=> window.open("https://www.linkedin.com/in/zachary-swensrude/", "_blank")}
           >
-            <img id="icon" src={linkedin} alt="linkedin logo"/>
+            <img id="icon" src={"/images/LinkedIn_icon.svg.png"} alt="linkedin logo"/>
           </Button>
         </NavbarItem>
       </NavbarContent>
