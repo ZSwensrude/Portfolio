@@ -17,8 +17,8 @@ module.exports = {
         "purple-dark": {
           extend: "dark", // <- inherit default values from dark theme
           colors: {
-            background: "#0D001A",
-            foreground: "#ffffff",
+            background: "#0D001A", // background colours
+            foreground: "#ffffff", // text colour
             primary: {
               50: "#3B096C",
               100: "#520F83",
@@ -54,3 +54,17 @@ module.exports = {
   ],
 }
 
+/*
+orange palette:
+              100: "#FEEFCB",
+              200: "#FDDB98",
+              300: "#FABF64",
+              400: "#F5A53D",
+              500: "#EF7B00",
+              600: "#CD5F00",
+              700: "#AC4700",
+              800: "#8A3300",
+              900: "#722400",
+              DEFAULT: "#EF7B00",
+
+*/
