@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import ZachNav from './components/ZachNav';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import About from './components/About';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -14,7 +18,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ZachNav activeTab={activeTab} onSelectTab={onSelectTab}/>
-        <h3>Welcome to Zach's portfolio! Check out some of my previous works below!</h3>
+        {
+          {
+            'home': <Home />,
+            'projects': <Projects />,
+            'about': <About />,
+            'resume': <Resume />
+          }[activeTab]
+        }
       </header>
     </div>
   );
