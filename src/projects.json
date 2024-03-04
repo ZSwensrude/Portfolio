@@ -6,7 +6,7 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Aug-Dec 2023"
+    "date": "Aug-Dec 2023"
   },
   {
     "title": "Mac-UN",
@@ -15,7 +15,7 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Current"
+    "date": "Current"
   },
   {
     "title": "Space Evaders",
@@ -24,7 +24,7 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Current"
+    "date": "Current"
   },
   {
     "title": "React Class Registration WebApp",
@@ -33,16 +33,16 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Feb 2024"
+    "date": "Feb 2024"
   },
   {
     "title": "DuckyBot",
-    "img": "/images/Projects/DuckyBot.png",
+    "img": "/images/Projects/DuckyBot.jpg",
     "tags": "Arduino, Robotics, 3D Printing, 3D Design",
     "description": "",
     "github": "",
     "link": "",
-    "year": "Oct-Dec 2022"
+    "date": "Oct-Dec 2022"
   },
   {
     "title": "Cube Crusher",
@@ -51,7 +51,7 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Mar-Apr 2023"
+    "date": "Mar-Apr 2023"
   },
   {
     "title": "Class Registration System",
@@ -60,7 +60,7 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Jan-Feb 2023"
+    "date": "Jan-Feb 2023"
   },
   {
     "title": "Client-Server Email Server",
@@ -69,7 +69,7 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Nov-Dec 2022"
+    "date": "Nov-Dec 2022"
   },
   {
     "title": "Restaurant Schedule Android App",
@@ -78,7 +78,7 @@
     "description": "",
     "github": "",
     "link": "",
-    "year": "Jan-Apr 2022"
+    "date": "Jan-Apr 2022"
   }
 ]
   

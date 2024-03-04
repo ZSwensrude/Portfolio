@@ -52,3 +52,8 @@
   right: 20px;
   font-size: 1rem;
 }
+
+.projectCards {
+  width: 80%;
+  margin: auto;
+}
