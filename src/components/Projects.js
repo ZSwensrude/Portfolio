@@ -70,6 +70,52 @@ const Projects = () => {
             </Card>
           </div>
         ) )}
+        <Card className="h-full w-full max-w-full rounded-top object-cover object-center">
+              <CardHeader
+                floated={false}
+                shadow={false}
+                color="transparent"
+                className="m-0 rounded-top"
+              >
+                <img
+                  src={"/images/projects/Portfolio.png"}
+                  className="cardImage"
+                  alt="ui/ux review check"
+                />
+              </CardHeader>
+              <CardBody>
+                <Typography variant="h4" color="blue-gray">
+                  My Portfolio
+                </Typography>
+                <Typography variant="lead" color="gray" className="mt-3 font-normal">
+                  Tailwind, NextUI, React, JavaScript, Node.js
+                </Typography>
+              </CardBody>
+              <CardFooter className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <Tooltip content="See the code!">
+                    <Button 
+                      isIconOnly 
+                      color="primary" 
+                      onClick={()=> window.open("https://github.com/ZSwensrude/Portfolio", "_blank")}
+                      variant="light"
+                    >
+                      <img id="icon" src={"/images/GitHub-logo.png"} alt="github logo"/>
+                    </Button>
+                  </Tooltip>
+                  <Tooltip content="See it in action!">
+                    <Button 
+                      className="projectButton bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
+                      color="success" 
+                      onClick={()=> window.open("http://localhost:3000", "_blank")}
+                    >
+                      {"Ever heard of recursion?"}
+                    </Button>
+                  </Tooltip>
+                </div>
+                <Typography className="font-normal">In Progress!</Typography>
+              </CardFooter>
+            </Card>
       </div>
     </div>
   );
