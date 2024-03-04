@@ -62,7 +62,7 @@ const ZachNav = ({ activeTab, onSelectTab }) => {
             color="secondary" 
             onClick={()=> window.open("https://github.com/ZSwensrude", "_blank")}
           >
-            <img id="icon" src={"/images/GitHub-logo.png"} alt="github logo"/>
+            <img id="icon" src={"images/GitHub-logo.png"} alt="github logo"/>
           </Button>
         </NavbarItem>
         <NavbarItem > 
@@ -70,7 +70,7 @@ const ZachNav = ({ activeTab, onSelectTab }) => {
             isIconOnly 
             onClick={()=> window.open("https://www.linkedin.com/in/zachary-swensrude/", "_blank")}
           >
-            <img id="icon" src={"/images/LinkedIn_icon.svg.png"} alt="linkedin logo"/>
+            <img id="icon" src={"images/LinkedIn_icon.svg.png"} alt="linkedin logo"/>
           </Button>
         </NavbarItem>
       </NavbarContent>

@@ -49,7 +49,7 @@ const Projects = () => {
                         onClick={()=> window.open(project.github, "_blank")}
                         variant="light"
                       >
-                        <img id="icon" src={"/images/GitHub-logo.png"} alt="github logo"/>
+                        <img id="icon" src={"images/GitHub-logo.png"} alt="github logo"/>
                       </Button>
                     </Tooltip>
                   )}
@@ -78,7 +78,7 @@ const Projects = () => {
                 className="m-0 rounded-top"
               >
                 <img
-                  src={"/images/projects/Portfolio.png"}
+                  src={"images/projects/Portfolio.png"}
                   className="cardImage"
                   alt="ui/ux review check"
                 />
@@ -100,14 +100,14 @@ const Projects = () => {
                       onClick={()=> window.open("https://github.com/ZSwensrude/Portfolio", "_blank")}
                       variant="light"
                     >
-                      <img id="icon" src={"/images/GitHub-logo.png"} alt="github logo"/>
+                      <img id="icon" src={"images/GitHub-logo.png"} alt="github logo"/>
                     </Button>
                   </Tooltip>
                   <Tooltip content="See it in action!">
                     <Button 
                       className="projectButton bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
                       color="success" 
-                      onClick={()=> window.open("http://localhost:3000", "_blank")}
+                      onClick={()=> window.open("https://zswensrude.github.io/Portfolio/", "_blank")}
                     >
                       {"Ever heard of recursion?"}
                     </Button>
