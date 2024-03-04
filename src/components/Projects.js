@@ -78,7 +78,7 @@ const Projects = () => {
                 className="m-0 rounded-top"
               >
                 <img
-                  src={"images/projects/Portfolio.png"}
+                  src={"images/Projects/Portfolio.png"}
                   className="cardImage"
                   alt="ui/ux review check"
                 />
