@@ -3,7 +3,7 @@ import { Carousel } from "@material-tailwind/react";
 import { Button } from "@nextui-org/react";
 import './components.css';
 
-const Home = () => {
+const Home = ({ onSelectTab }) => {
   return (
     <>
       <div className="carousel">
@@ -24,7 +24,7 @@ const Home = () => {
               alt="Lich's Lair tutorial room"
               className="h-full w-full object-cover"
             />
-            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
+            <Button onClick={() => onSelectTab('projects')} className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
           <>
             <p className="carouselText">Mac-UN: A Model UN Conference Webapp</p>
@@ -33,7 +33,7 @@ const Home = () => {
               alt="Mac-UN web app front page"
               className="h-full w-full object-cover"
             />
-            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
+            <Button onClick={() => onSelectTab('projects')} className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
           <>
             <p className="carouselText">DuckyBot: A 3D printed human-following robot</p>
@@ -42,7 +42,7 @@ const Home = () => {
               alt="Ducky bot, a 3d printed robot in the shape of a duck"
               className="h-full w-full object-cover"
             />
-            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
+            <Button onClick={() => onSelectTab('projects')} className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
           <>
             <p className="carouselText" color="secondary">Space Evaders: A 3D endless runner game created in Unity</p>
@@ -51,7 +51,7 @@ const Home = () => {
               alt="in game screenshot from space evaders"
               className="h-full w-full object-cover"
             />
-            <Button className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
+            <Button onClick={() => onSelectTab('projects')} className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg imageButton">More Info</Button>
           </>
         </Carousel>
         <br />

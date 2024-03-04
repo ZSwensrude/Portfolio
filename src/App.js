@@ -21,7 +21,7 @@ function App() {
         <div className='content'>
           {
             {
-              'home': <Home />,
+              'home': <Home onSelectTab={onSelectTab} />,
               'projects': <Projects />,
               'about': <About />,
               'resume': <Resume />
