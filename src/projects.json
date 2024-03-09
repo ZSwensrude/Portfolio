@@ -78,6 +78,16 @@
     "date": "Nov-Dec 2022"
   },
   {
+    "title": "my_ps (custom ps command)",
+    "img": "/images/Projects/my_ps.png",
+    "tags": "C, UNIX, Linux",
+    "description": "",
+    "github": "",
+    "link": "",
+    "action": "",
+    "date": "Mar 2022"
+  },
+  {
     "title": "Restaurant Schedule Android App",
     "img": "/images/Projects/RestaurantApp.png",
     "tags": "Java, Android Studio, SQLite",
