@@ -20,7 +20,7 @@ const Home = ({ onSelectTab }) => {
           <>
             <p className="carouselText">Lich's Lair: A 2D Roguelike made in Unity</p>
             <img
-              src={"images/Projects/LichsLair.png"}
+              src={`${process.env.PUBLIC_URL}/images/Projects/LichsLair.png`}
               alt="Lich's Lair tutorial room"
               className="h-full w-full object-cover"
             />
@@ -29,7 +29,7 @@ const Home = ({ onSelectTab }) => {
           <>
             <p className="carouselText">Mac-UN: A Model UN Conference Webapp</p>
             <img
-              src={"images/Projects/Mac-UN.png"}
+              src={`${process.env.PUBLIC_URL}/images/Projects/Mac-UN.png`}
               alt="Mac-UN web app front page"
               className="h-full w-full object-cover"
             />
@@ -38,7 +38,7 @@ const Home = ({ onSelectTab }) => {
           <>
             <p className="carouselText">DuckyBot: A 3D printed human-following robot</p>
             <img
-              src={"images/Projects/DuckyBot.jpg"}
+              src={`${process.env.PUBLIC_URL}/images/Projects/DuckyBot.jpg`}
               alt="Ducky bot, a 3d printed robot in the shape of a duck"
               className="h-full w-full object-cover"
             />
@@ -47,7 +47,7 @@ const Home = ({ onSelectTab }) => {
           <>
             <p className="carouselText" color="secondary">Space Evaders: A 3D endless runner game created in Unity</p>
             <img
-              src={"images/Projects/SpaceEvaders.png"}
+              src={`${process.env.PUBLIC_URL}/images/Projects/SpaceEvaders.png`}
               alt="in game screenshot from space evaders"
               className="h-full w-full object-cover"
             />

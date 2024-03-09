@@ -26,9 +26,9 @@ const Projects = () => {
                 className="m-0 rounded-top"
               >
                 <img
-                  src={project.img}
+                  src={`${process.env.PUBLIC_URL}${project.img}`}
                   className="cardImage"
-                  alt="ui/ux review check"
+                  alt={project.title + " image"}
                 />
               </CardHeader>
               <CardBody>
@@ -49,7 +49,7 @@ const Projects = () => {
                         onClick={()=> window.open(project.github, "_blank")}
                         variant="light"
                       >
-                        <img id="icon" src={"images/GitHub-logo.png"} alt="github logo"/>
+                        <img id="icon" src={`${process.env.PUBLIC_URL}/images/GitHub-logo.png`} alt="github logo"/>
                       </Button>
                     </Tooltip>
                   )}
@@ -78,7 +78,7 @@ const Projects = () => {
                 className="m-0 rounded-top"
               >
                 <img
-                  src={"images/Projects/Portfolio.png"}
+                  src={`${process.env.PUBLIC_URL}/images/Projects/Portfolio.png`}
                   className="cardImage"
                   alt="ui/ux review check"
                 />
@@ -100,7 +100,7 @@ const Projects = () => {
                       onClick={()=> window.open("https://github.com/ZSwensrude/Portfolio", "_blank")}
                       variant="light"
                     >
-                      <img id="icon" src={"images/GitHub-logo.png"} alt="github logo"/>
+                      <img id="icon" src={`${process.env.PUBLIC_URL}/images/GitHub-logo.png`} alt="github logo"/>
                     </Button>
                   </Tooltip>
                   <Tooltip content="See it in action!">

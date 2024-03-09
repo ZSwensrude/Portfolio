@@ -1,7 +1,7 @@
 [
   {
     "title": "Lich's Lair",
-    "img": "images/Projects/LichsLair.png",
+    "img": "/images/Projects/LichsLair.png",
     "tags": "Unity 2D, C#, Research, Pixel Art, Testing, Playable",
     "description": "",
     "github": "https://github.com/TrevorWM/CapstoneSurvivors",
@@ -11,7 +11,7 @@
   },
   {
     "title": "Mac-UN",
-    "img": "images/Projects/Mac-UN.png",
+    "img": "/images/Projects/Mac-UN.png",
     "tags": "React, JavaScript, MongoDB, Node.js, CSS, HTML, Deployed",
     "description": "",
     "github": "",
@@ -21,7 +21,7 @@
   },
   {
     "title": "Space Evaders",
-    "img": "images/Projects/SpaceEvaders.png",
+    "img": "/images/Projects/SpaceEvaders.png",
     "tags": "Unity 3D, C#, Asset Usage, Particle System",
     "description": "",
     "github": "https://github.com/ZSwensrude/SpaceEvaders",
@@ -31,7 +31,7 @@
   },
   {
     "title": "React Class Registration WebApp",
-    "img": "images/Projects/WebRegister.png",
+    "img": "/images/Projects/WebRegister.png",
     "tags": "React Boostrap, Express, MongoDB, Mongoose, Node, React, JavaScript",
     "description": "",
     "github": "https://github.com/ZSwensrude/CMPT-315-Midterm",
@@ -41,7 +41,7 @@
   },
   {
     "title": "DuckyBot",
-    "img": "images/Projects/DuckyBot.jpg",
+    "img": "/images/Projects/DuckyBot.jpg",
     "tags": "Arduino, Robotics, 3D Printing, 3D Design",
     "description": "",
     "github": "https://github.com/ZSwensrude/DuckyBot",
@@ -51,7 +51,7 @@
   },
   {
     "title": "Cube Crusher",
-    "img": "images/Projects/CubeCrusher.png",
+    "img": "/images/Projects/CubeCrusher.png",
     "tags": "WebGL, Shaders, JavaScript, Raymarching",
     "description": "",
     "github": "",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Class Registration System",
-    "img": "images/Projects/ClassRegistration.png",
+    "img": "/images/Projects/ClassRegistration.png",
     "tags": "C#, .NET, SQL, Database",
     "description": "",
     "github": "https://github.com/Apolywkan/CMPT391",
@@ -70,7 +70,7 @@
   },
   {
     "title": "Client-Server Email Server",
-    "img": "images/Projects/EmailServer.png",
+    "img": "/images/Projects/EmailServer.png",
     "tags": "Python, Network, Communication, UNIX",
     "description": "",
     "github": "",
@@ -79,7 +79,7 @@
   },
   {
     "title": "Restaurant Schedule Android App",
-    "img": "images/Projects/RestaurantApp.png",
+    "img": "/images/Projects/RestaurantApp.png",
     "tags": "Java, Android Studio, SQLite",
     "description": "",
     "github": "",
