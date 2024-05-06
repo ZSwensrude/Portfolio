@@ -1,15 +1,5 @@
 [
   {
-    "title": "Lich's Lair",
-    "img": "/images/Projects/LichsLair.png",
-    "tags": "Unity 2D, C#, Research, Pixel Art, Testing, Playable",
-    "description": "",
-    "github": "https://github.com/TrevorWM/CapstoneSurvivors",
-    "link": "https://trevorwm.github.io/CapstoneWebBuild/",
-    "date": "Aug-Dec 2023",
-    "action": "Play the game!"
-  },
-  {
     "title": "Mac-UN",
     "img": "/images/Projects/Mac-UN.png",
     "tags": "React, JavaScript, MongoDB, Node.js, CSS, HTML, Deployed",
@@ -22,11 +12,31 @@
   {
     "title": "Space Evaders",
     "img": "/images/Projects/SpaceEvaders.png",
-    "tags": "Unity 3D, C#, Asset Usage, Particle System",
+    "tags": "Infinite Runner, Unity 3D, C#, Assets, Particle System, Online Leaderboard",
     "description": "",
     "github": "https://github.com/ZSwensrude/SpaceEvaders",
     "link": "https://zswensrude.github.io/SpaceEvaders-Build/",
-    "date": "Current Project!",
+    "date": "Jan-Mar 2024",
+    "action": "Play the game!"
+  },
+  {
+    "title": "Restaurant Ordering Management System",
+    "img": "/images/Projects/ROMS.png",
+    "tags": "MERN Stack, MongoDB, Express, React, Node, Final Project (shared with permission)",
+    "description": "",
+    "github": "https://github.com/kevanoullio/cmpt315-final-project",
+    "link": "",
+    "date": "Jan-Apr 2024",
+    "action": "Play the game!"
+  },
+  {
+    "title": "Lich's Lair",
+    "img": "/images/Projects/LichsLair.png",
+    "tags": "Roguelike, Unity 2D, C#, Research, Pixel Art, Testing, Playable, Research",
+    "description": "",
+    "github": "https://github.com/TrevorWM/CapstoneSurvivors",
+    "link": "https://trevorwm.github.io/CapstoneWebBuild/",
+    "date": "Aug-Dec 2023",
     "action": "Play the game!"
   },
   {
@@ -71,7 +81,7 @@
   {
     "title": "Client-Server Email Server",
     "img": "/images/Projects/EmailServer.png",
-    "tags": "Python, Network, Communication, UNIX",
+    "tags": "Python, Network, Encryption, SHA256, Communication, UNIX",
     "description": "",
     "github": "",
     "link": "",
