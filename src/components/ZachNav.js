@@ -1,31 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, Avatar, NavbarMenuToggle, NavbarMenu, NavbarMenuItem} from "@nextui-org/react";
 import './components.css';
 
 const ZachNav = ({ activeTab, onSelectTab }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   const onMenuClick = (selection) => {
     onSelectTab(selection);
     setIsMenuOpen(false);
   };
 
-  const handleResize = () => {
-    if (window.innerWidth < 740) {
-      setIsSmallScreen(true)
-    } else {
-      setIsSmallScreen(false)
-    }
-  }
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize)
-  })
-
   return (
     <>
-      <div style={{ display:`${isSmallScreen ? "block" : "none"}` }} >
+      <div className="smallNav" >
         <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen} >
           <NavbarContent>
             <NavbarMenuToggle 
@@ -103,7 +90,7 @@ const ZachNav = ({ activeTab, onSelectTab }) => {
         </Navbar>
       </div>
 
-      <div style={{ display:`${isSmallScreen ? "none" : "block"}` }}>
+      <div className="bigNav">
         <Navbar isBordered className="topText" >
           <NavbarBrand className="navbarPad">
             <Avatar 

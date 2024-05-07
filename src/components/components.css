@@ -117,6 +117,24 @@
   opacity: 1;
 }
 
+.smallNav {
+  display: none;
+}
+
+.bigNav {
+  display: block;
+}
+
+@media (max-width: 740px) {
+  .smallNav {
+    display: block;
+  }
+  
+  .bigNav {
+    display: none;
+  }
+}
+
 @media (max-width: 540px) {
   .grid-container {
     grid-template-columns: 1fr;
