@@ -67,3 +67,42 @@
 .resume {
   width: 100vh;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  padding: 10px;
+  max-width: 1000px;
+}
+
+.item {
+  text-align: left;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.item-image {
+  display: flex;
+  align-items: center;
+}
+
+.about-bottom {
+  text-align: left;
+  display: flex;
+  margin: auto;
+  font-size: 20px;
+  max-width: 700px;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 400px;
+  }
+  .item-image {
+    height: fit-content;
+  }
+}
