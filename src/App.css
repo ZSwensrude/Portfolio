@@ -17,6 +17,22 @@
   justify-content: center;
 }
 
+
+@media (max-width: 1000px) {
+  .App-header {
+    max-width: 1000px;
+    min-width: 600px;
+  }
+  .App {
+    max-width: 1000px;
+    min-width: 600px;
+  }
+  .content {
+    max-width: 900px;
+    min-width: 600px;
+  }
+}
+
 @media (max-width: 540px) {
   .App-header {
     max-width: 540px;

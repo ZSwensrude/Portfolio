@@ -19,6 +19,16 @@ code {
     monospace;
 }
 
+
+
+@media (max-width: 1000px) {
+  body {
+    max-width: 1000px;
+    min-width: 600px;
+  }
+
+}
+
 @media (max-width: 540px) {
   body {
     max-width: 540px;
