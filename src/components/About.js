@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import {Image} from "@nextui-org/react";
 import "./components.css";
 
 const About = () => {
-
   return (
     <>
       <p className="headerText">
@@ -67,7 +66,7 @@ const About = () => {
           />
         </div>
         <p className="fig" >
-          Fig. 1. My cats that got me through University
+          Shout out to my cats who got me through University
         </p>
       </div>
     </>
