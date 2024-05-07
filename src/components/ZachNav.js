@@ -1,16 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, Avatar, NavbarMenuToggle, NavbarMenu, NavbarMenuItem} from "@nextui-org/react";
-import './components.css'
-import { useMediaQuery } from "react-responsive";
+import './components.css';
 
 const ZachNav = ({ activeTab, onSelectTab }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isSmallScreen = useMediaQuery({ query: `(max-width: 740px)` });
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   const onMenuClick = (selection) => {
     onSelectTab(selection);
     setIsMenuOpen(false);
   };
+
+  const handleResize = () => {
+    if (window.innerWidth < 740) {
+      setIsSmallScreen(true)
+    } else {
+      setIsSmallScreen(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize)
+  })
 
   return (
     <>
