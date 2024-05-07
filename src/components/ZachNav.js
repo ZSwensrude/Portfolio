@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 
 const ZachNav = ({ activeTab, onSelectTab }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isSmallScreen = useMediaQuery({ query: `(max-width: 540px)` });
+  const isSmallScreen = useMediaQuery({ query: `(max-width: 740px)` });
 
   const onMenuClick = (selection) => {
     onSelectTab(selection);
