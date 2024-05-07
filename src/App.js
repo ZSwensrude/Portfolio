@@ -29,7 +29,6 @@ function App() {
           }
         </div>
       </div>
-      <p>Please note that this portfolio is currently under development</p>
     </div>
   );
 }

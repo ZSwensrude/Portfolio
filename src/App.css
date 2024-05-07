@@ -1,4 +1,5 @@
 .App {
+  min-width: 100vh;
 }
 
 .App-header {
@@ -14,4 +15,19 @@
   align-self: center;
   text-align: center;
   justify-content: center;
+}
+
+@media (max-width: 540px) {
+  .App-header {
+    max-width: 540px;
+    min-width: 300px;
+  }
+  .App {
+    max-width: 540px;
+    min-width: 300px;
+  }
+  .content {
+    max-width: 450px;
+    min-width: 300px;
+  }
 }

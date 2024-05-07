@@ -1,8 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, Avatar} from "@nextui-org/react";
 import './components.css'
 
 const ZachNav = ({ activeTab, onSelectTab }) => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  const checkScreenSize = () => {
+    setIsSmallScreen(window.innerWidth < 768);
+  };
+
+  useEffect(() => {
+    checkScreenSize();
+
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
+
+
+  if (isSmallScreen)
+    return (
+      <div></div>
+    ) 
+  else 
   return (
     <Navbar isBordered className="topText" >
       <NavbarBrand className="navbarPad">

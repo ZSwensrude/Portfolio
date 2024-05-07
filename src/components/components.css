@@ -117,7 +117,7 @@
   opacity: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 540px) {
   .grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
