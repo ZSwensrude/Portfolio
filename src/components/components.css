@@ -125,6 +125,18 @@
   display: block;
 }
 
+.pdf {
+  width:1000px;
+  height:1000px;
+}
+
+@media (max-width: 1000px) {
+  .pdf {
+    width:740px;
+    height:1000px;
+  }
+}
+
 @media (max-width: 740px) {
   .smallNav {
     display: block;
@@ -132,6 +144,10 @@
   
   .bigNav {
     display: none;
+  }
+  .pdf {
+    width:540px;
+    height:1000px;
   }
 }
 
@@ -149,6 +165,11 @@
     font-size: 20px;
     max-width: 400px;
     margin-top: -250px;
+  }
+
+  .pdf {
+    width:350px;
+    height:1000px;
   }
   
 }
