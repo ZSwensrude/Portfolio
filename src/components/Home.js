@@ -51,7 +51,7 @@ const Home = ({ onSelectTab }) => {
         </Carousel>
         <br />
         <p className="descriptionText">
-          I expect to graduate in June 2024, and have been keeping extra busy during my last semester with various classes, projects, and at my internship as a full-stack developer at Dominarlo
+          I graduated from MacEwan University in June 2024 with a Bachelor of Science in Computer Science and I am currently working at Catalis as a Junior Web Developer!
         </p>
       </div>
     </>

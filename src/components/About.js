@@ -11,9 +11,9 @@ const About = () => {
       <div className="grid-container">
         <div className="item">
           <p>
-            Hey! I am Zachary but I usually go by Zach. As of June 2024 I will be a MacEwan Alumni with a Bachelor of
-            Science with a major in Computer Science and a minor in Psychology. Thanks for taking the time to read 
-            about me!
+            Hey! I am Zachary but I usually go by Zach. As of June 2024 I am a MacEwan University Alumni with a Bachelor of
+            Science with a major in Computer Science and a minor in Psychology. I am currently working at Catalis as a junior web developer!
+            Thanks for taking the time to read about me!
           </p>
           <br/>
           <p>
@@ -23,11 +23,6 @@ const About = () => {
             during my time at MacEwan so that I could take on any challenge in (almost) any language and succeed!
           </p>
           <br/>
-          <p>
-            As you are reading this, I am probably either working on something at my internship with Dominarlo, 
-            working on making Mac-UN a real product, or working on one of the academic papers I am trying to publish 
-            with XR Media Research Group!
-          </p>
         </div>
         <div className="item-image">
           <Image
